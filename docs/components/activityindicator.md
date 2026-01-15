@@ -1,6 +1,7 @@
 ---
 title: ActivityIndicator
-ionic: spinner
+tag: spinner
 ---
+
 
 # ActivityIndicator

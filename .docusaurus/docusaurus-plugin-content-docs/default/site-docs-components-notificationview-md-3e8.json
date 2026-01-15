@@ -1,0 +1,26 @@
+{
+  "id": "components/notificationview",
+  "title": "NotificationView",
+  "description": "",
+  "source": "@site/docs/components/notificationview.md",
+  "sourceDirName": "components",
+  "slug": "/components/notificationview",
+  "permalink": "/components/notificationview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "NotificationView",
+    "tag": "toast"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "IndeterminateProgressBar",
+    "permalink": "/components/indeterminateprogressbar"
+  },
+  "next": {
+    "title": "ShimmerView",
+    "permalink": "/components/shimmerview"
+  }
+}

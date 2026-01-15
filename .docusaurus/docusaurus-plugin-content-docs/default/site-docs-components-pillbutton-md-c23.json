@@ -1,0 +1,26 @@
+{
+  "id": "components/pillbutton",
+  "title": "PillButton",
+  "description": "",
+  "source": "@site/docs/components/pillbutton.md",
+  "sourceDirName": "components",
+  "slug": "/components/pillbutton",
+  "permalink": "/components/pillbutton",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "PillButton",
+    "tag": "chip"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "PersonaButtonCarousel",
+    "permalink": "/components/personabuttoncarousel"
+  },
+  "next": {
+    "title": "PillButtonBar",
+    "permalink": "/components/pillbuttonbar"
+  }
+}

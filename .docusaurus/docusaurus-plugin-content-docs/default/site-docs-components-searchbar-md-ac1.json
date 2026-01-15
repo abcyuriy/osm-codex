@@ -1,0 +1,26 @@
+{
+  "id": "components/searchbar",
+  "title": "SearchBar",
+  "description": "",
+  "source": "@site/docs/components/searchbar.md",
+  "sourceDirName": "components",
+  "slug": "/components/searchbar",
+  "permalink": "/components/searchbar",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "SearchBar",
+    "tag": "searchbar"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "PeoplePicker",
+    "permalink": "/components/peoplepicker"
+  },
+  "next": {
+    "title": "SegmentedControl",
+    "permalink": "/components/segmentedcontrol"
+  }
+}

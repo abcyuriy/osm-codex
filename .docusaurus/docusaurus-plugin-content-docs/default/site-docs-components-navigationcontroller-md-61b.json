@@ -1,0 +1,26 @@
+{
+  "id": "components/navigationcontroller",
+  "title": "NavigationController",
+  "description": "",
+  "source": "@site/docs/components/navigationcontroller.md",
+  "sourceDirName": "components",
+  "slug": "/components/navigationcontroller",
+  "permalink": "/components/navigationcontroller",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "NavigationController",
+    "tag": "nav"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "DrawerController",
+    "permalink": "/components/drawercontroller"
+  },
+  "next": {
+    "title": "SideTabBar",
+    "permalink": "/components/sidetabbar"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "components/indeterminateprogressbar",
+  "title": "IndeterminateProgressBar",
+  "description": "",
+  "source": "@site/docs/components/indeterminateprogressbar.md",
+  "sourceDirName": "components",
+  "slug": "/components/indeterminateprogressbar",
+  "permalink": "/components/indeterminateprogressbar",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "IndeterminateProgressBar",
+    "tag": "progress-bar"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "HUD",
+    "permalink": "/components/hud"
+  },
+  "next": {
+    "title": "NotificationView",
+    "permalink": "/components/notificationview"
+  }
+}

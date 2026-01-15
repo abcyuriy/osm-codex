@@ -1,0 +1,9 @@
+.categoryLinkLabel {
+  color: var(--osm-category-color);
+  font-weight: 600;
+}
+
+.filterItem {
+  list-style: none;
+  padding: 6px 8px 10px;
+}

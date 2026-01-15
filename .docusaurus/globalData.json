@@ -1,0 +1,193 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "overview",
+          "docs": [
+            {
+              "id": "components-react/soon",
+              "path": "/components-react/soon",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/activityindicator",
+              "path": "/components/activityindicator",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/avatargroup",
+              "path": "/components/avatargroup",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/badgefield",
+              "path": "/components/badgefield",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/badgeview",
+              "path": "/components/badgeview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/bottomcommandingcontroller",
+              "path": "/components/bottomcommandingcontroller",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/bottomsheetcontroller",
+              "path": "/components/bottomsheetcontroller",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/button",
+              "path": "/components/button",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/cardnudge",
+              "path": "/components/cardnudge",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/drawercontroller",
+              "path": "/components/drawercontroller",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/hud",
+              "path": "/components/hud",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/indeterminateprogressbar",
+              "path": "/components/indeterminateprogressbar",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/listactionitem",
+              "path": "/components/listactionitem",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/listitem",
+              "path": "/components/listitem",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/navigationcontroller",
+              "path": "/components/navigationcontroller",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/notificationview",
+              "path": "/components/notificationview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/peoplepicker",
+              "path": "/components/peoplepicker",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/personabuttoncarousel",
+              "path": "/components/personabuttoncarousel",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/pillbutton",
+              "path": "/components/pillbutton",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/pillbuttonbar",
+              "path": "/components/pillbuttonbar",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/popupmenucontroller",
+              "path": "/components/popupmenucontroller",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/searchbar",
+              "path": "/components/searchbar",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/segmentedcontrol",
+              "path": "/components/segmentedcontrol",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/shimmerview",
+              "path": "/components/shimmerview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/sidetabbar",
+              "path": "/components/sidetabbar",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/tabbarview",
+              "path": "/components/tabbarview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/tableviewcell",
+              "path": "/components/tableviewcell",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/tableviewheaderfooterview",
+              "path": "/components/tableviewheaderfooterview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/textfield",
+              "path": "/components/textfield",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/tooltip",
+              "path": "/components/tooltip",
+              "sidebar": "docs"
+            },
+            {
+              "id": "components/twolinetitleview",
+              "path": "/components/twolinetitleview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "overview",
+              "path": "/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tokens/global-color-tokens",
+              "path": "/tokens/global-color-tokens",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/overview",
+                "label": "overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

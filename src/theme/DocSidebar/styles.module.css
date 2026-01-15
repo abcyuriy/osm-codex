@@ -1,5 +1,6 @@
-.filterBar{display:flex;gap:16px;padding:10px 12px;align-items:center;}
+.filterBar{display:flex;flex-wrap:wrap;gap:12px 16px;padding:10px 12px;align-items:center;background:var(--osm-filter-bg);border-radius:12px;}
 .filterItem{display:flex;gap:10px;align-items:center;font-size:14px;opacity:.9;}
+.filterItemFull{width:100%;}
 .toggle{width:52px;height:28px;border-radius:999px;border:1px solid rgba(0,0,0,.12);background:rgba(0,0,0,.10);position:relative;cursor:pointer;}
 .toggleOn{background:rgba(0,122,255,.85);border-color:rgba(0,122,255,.55);}
 .knob{width:24px;height:24px;background:#fff;border-radius:50%;position:absolute;top:1px;left:2px;transition:transform 160ms ease;}
