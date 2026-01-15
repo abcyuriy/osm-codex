@@ -1,0 +1,26 @@
+{
+  "id": "components/peoplepicker",
+  "title": "PeoplePicker",
+  "description": "",
+  "source": "@site/docs/components/peoplepicker.md",
+  "sourceDirName": "components",
+  "slug": "/components/peoplepicker",
+  "permalink": "/components/peoplepicker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "PeoplePicker",
+    "tag": "select"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "PillButtonBar",
+    "permalink": "/components/pillbuttonbar"
+  },
+  "next": {
+    "title": "SearchBar",
+    "permalink": "/components/searchbar"
+  }
+}

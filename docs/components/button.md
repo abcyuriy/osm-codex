@@ -1,6 +1,7 @@
 ---
 title: Button
-ionic: button
+tag: button
 ---
+
 
 # Button

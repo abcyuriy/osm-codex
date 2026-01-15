@@ -1,0 +1,26 @@
+{
+  "id": "components/segmentedcontrol",
+  "title": "SegmentedControl",
+  "description": "",
+  "source": "@site/docs/components/segmentedcontrol.md",
+  "sourceDirName": "components",
+  "slug": "/components/segmentedcontrol",
+  "permalink": "/components/segmentedcontrol",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "SegmentedControl",
+    "tag": "segment"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "SearchBar",
+    "permalink": "/components/searchbar"
+  },
+  "next": {
+    "title": "TextField",
+    "permalink": "/components/textfield"
+  }
+}

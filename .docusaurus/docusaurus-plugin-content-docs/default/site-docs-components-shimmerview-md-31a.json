@@ -1,0 +1,26 @@
+{
+  "id": "components/shimmerview",
+  "title": "ShimmerView",
+  "description": "",
+  "source": "@site/docs/components/shimmerview.md",
+  "sourceDirName": "components",
+  "slug": "/components/shimmerview",
+  "permalink": "/components/shimmerview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ShimmerView",
+    "tag": "skeleton"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "NotificationView",
+    "permalink": "/components/notificationview"
+  },
+  "next": {
+    "title": "BottomSheetController",
+    "permalink": "/components/bottomsheetcontroller"
+  }
+}

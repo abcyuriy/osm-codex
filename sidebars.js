@@ -6,32 +6,36 @@ const matter = require('gray-matter');
 function readDocs(dir) {
   const out = [];
   if (!fs.existsSync(dir)) return out;
-  for (const name of fs.readdirSync(dir)) {
-    if (!name.endsWith('.md') && !name.endsWith('.mdx')) continue;
-    const raw = fs.readFileSync(path.join(dir, name), 'utf8');
-    const parsed = matter(raw);
-    out.push({
-      id: name.replace(/\.(md|mdx)$/i, ''),
-      title: parsed.data?.title,
-      ionic: parsed.data?.ionic,
-    });
-  }
+  const walk = (current, relBase) => {
+    for (const entry of fs.readdirSync(current, {withFileTypes: true})) {
+      const full = path.join(current, entry.name);
+      if (entry.isDirectory()) {
+        walk(full, path.join(relBase, entry.name));
+        continue;
+      }
+      if (!entry.isFile()) continue;
+      if (!entry.name.endsWith('.md') && !entry.name.endsWith('.mdx')) continue;
+      const raw = fs.readFileSync(full, 'utf8');
+      const parsed = matter(raw);
+      const relId = path
+        .join(relBase, entry.name)
+        .replace(/\.(md|mdx)$/i, '')
+        .replace(/\\/g, '/');
+      out.push({
+        id: relId,
+        title: parsed.data?.title,
+        tag: parsed.data?.tag,
+      });
+    }
+  };
+  walk(dir, '');
   return out;
-}
-
-function toShortTag(v) {
-  if (typeof v !== 'string') return null;
-  const s = v.trim();
-  if (!s) return null;
-  const cleaned = s.replace(/^ion[-_]?/i, '').trim();
-  return cleaned.split(/\s+/).slice(0, 2).join(' ');
 }
 
 function docItem(docId, label, tag) {
   const item = { type: 'doc', id: docId };
   if (label) item.label = label;
-  const t = toShortTag(tag);
-  if (t) item.customProps = { tag: t };
+  if (typeof tag === 'string' && tag.trim()) item.customProps = { tag: tag.trim() };
   return item;
 }
 
@@ -61,13 +65,13 @@ function buildGroupedComponents(docs) {
         type: 'category',
         label: b.label,
         collapsed: true,
-        items: b.items.map(d => docItem(`components/${d.id}`, d.title, d.ionic)),
+        items: b.items.map(d => docItem(`components/${d.id}`, d.title, d.tag)),
       };
     });
 }
 
 function buildFlat(docs, prefix) {
-  const items = docs.map(d => docItem(`${prefix}/${d.id}`, d.title, d.ionic));
+  const items = docs.map(d => docItem(`${prefix}/${d.id}`, d.title, d.tag));
   items.sort((a,b)=>String(a.label||a.id).localeCompare(String(b.label||b.id)));
   return items;
 }
@@ -80,7 +84,18 @@ const tokens = readDocs(path.join(docsRoot, 'tokens'));
 
 const sidebar = [
   fs.existsSync(overviewPath) ? 'overview' : null,
-  { type: 'category', label: 'Components', collapsed: false, items: buildGroupedComponents(components) },
+  {
+    type: 'category',
+    label: 'Компоненты React',
+    collapsed: true,
+    items: [{type: 'doc', id: 'components-react/soon', label: 'Скоро'}],
+  },
+  {
+    type: 'category',
+    label: 'Компоненты WebView',
+    collapsed: false,
+    items: buildGroupedComponents(components),
+  },
   { type: 'category', label: 'Tokens', collapsed: false, items: buildFlat(tokens, 'tokens') },
 ].filter(Boolean);
 

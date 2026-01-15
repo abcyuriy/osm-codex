@@ -1,0 +1,26 @@
+{
+  "id": "components/badgefield",
+  "title": "BadgeField",
+  "description": "",
+  "source": "@site/docs/components/badgefield.md",
+  "sourceDirName": "components",
+  "slug": "/components/badgefield",
+  "permalink": "/components/badgefield",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BadgeField",
+    "tag": "input"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "AvatarGroup",
+    "permalink": "/components/avatargroup"
+  },
+  "next": {
+    "title": "BadgeView",
+    "permalink": "/components/badgeview"
+  }
+}

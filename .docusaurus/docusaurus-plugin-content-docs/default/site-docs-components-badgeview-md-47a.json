@@ -1,0 +1,26 @@
+{
+  "id": "components/badgeview",
+  "title": "BadgeView",
+  "description": "",
+  "source": "@site/docs/components/badgeview.md",
+  "sourceDirName": "components",
+  "slug": "/components/badgeview",
+  "permalink": "/components/badgeview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BadgeView",
+    "tag": "badge"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "BadgeField",
+    "permalink": "/components/badgefield"
+  },
+  "next": {
+    "title": "CardNudge",
+    "permalink": "/components/cardnudge"
+  }
+}

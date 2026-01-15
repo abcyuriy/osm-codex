@@ -1,0 +1,190 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/-f7a": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---aba-d70"
+    }
+  },
+  "/-9b9": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---22-d-307"
+  },
+  "/-66d": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/components-react/soon-726": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-react-soon-204-f48"
+  },
+  "/components/activityindicator-01a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-activityindicatora-99-93c"
+  },
+  "/components/avatargroup-4c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-avatargroup-9-bd-a0a"
+  },
+  "/components/badgefield-985": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-badgefield-08-a-499"
+  },
+  "/components/badgeview-98d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-badgeview-47-a-080"
+  },
+  "/components/bottomcommandingcontroller-38a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-bottomcommandingcontrollerf-91-52b"
+  },
+  "/components/bottomsheetcontroller-92e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-bottomsheetcontroller-9-f-9-c28"
+  },
+  "/components/button-92c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-button-9-eb-794"
+  },
+  "/components/cardnudge-cf7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-cardnudge-10-e-7b2"
+  },
+  "/components/drawercontroller-82a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-drawercontroller-00-f-753"
+  },
+  "/components/hud-92a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-hud-3-b-5-187"
+  },
+  "/components/indeterminateprogressbar-59d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-indeterminateprogressbar-109-508"
+  },
+  "/components/listactionitem-25e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-listactionitembf-1-bdf"
+  },
+  "/components/listitem-7b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-listiteme-1-d-45c"
+  },
+  "/components/navigationcontroller-780": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-navigationcontroller-61-b-1d5"
+  },
+  "/components/notificationview-193": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-notificationview-3-e-8-530"
+  },
+  "/components/peoplepicker-11d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-peoplepicker-777-ca6"
+  },
+  "/components/personabuttoncarousel-963": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-personabuttoncarousel-811-df1"
+  },
+  "/components/pillbutton-5fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-pillbuttonc-23-e87"
+  },
+  "/components/pillbuttonbar-950": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-pillbuttonbar-047-cc6"
+  },
+  "/components/popupmenucontroller-d95": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-popupmenucontrollera-4-a-ca9"
+  },
+  "/components/searchbar-d23": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-searchbarac-1-529"
+  },
+  "/components/segmentedcontrol-3f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-segmentedcontrol-438-c7d"
+  },
+  "/components/shimmerview-61e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-shimmerview-31-a-6c2"
+  },
+  "/components/sidetabbar-b04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-sidetabbared-4-2ca"
+  },
+  "/components/tabbarview-da1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-tabbarview-53-d-0e2"
+  },
+  "/components/tableviewcell-280": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-tableviewcell-6-d-6-da1"
+  },
+  "/components/tableviewheaderfooterview-108": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-tableviewheaderfooterview-70-a-1b6"
+  },
+  "/components/textfield-896": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-textfieldbd-1-3bb"
+  },
+  "/components/tooltip-e29": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-tooltip-5-af-2e3"
+  },
+  "/components/twolinetitleview-e54": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-twolinetitleview-160-c0d"
+  },
+  "/overview-a64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---overview-1-db-0f1"
+  },
+  "/tokens/global-color-tokens-e22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tokens-global-color-tokens-905-6fb"
+  }
+}
