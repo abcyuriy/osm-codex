@@ -1,7 +1,7 @@
 {
   "id": "components/listitem",
   "title": "ListItem",
-  "description": "",
+  "description": "Назначение",
   "source": "@site/docs/components/listitem.md",
   "sourceDirName": "components",
   "slug": "/components/listitem",

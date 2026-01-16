@@ -1,7 +1,7 @@
 {
   "id": "components/tableviewcell",
   "title": "TableViewCell",
-  "description": "",
+  "description": "Назначение",
   "source": "@site/docs/components/tableviewcell.md",
   "sourceDirName": "components",
   "slug": "/components/tableviewcell",

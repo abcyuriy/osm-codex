@@ -1,7 +1,7 @@
 {
   "id": "components/tabbarview",
   "title": "TabBarView",
-  "description": "",
+  "description": "Назначение",
   "source": "@site/docs/components/tabbarview.md",
   "sourceDirName": "components",
   "slug": "/components/tabbarview",

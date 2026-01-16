@@ -1,7 +1,7 @@
 {
   "id": "components/segmentedcontrol",
   "title": "SegmentedControl",
-  "description": "",
+  "description": "Назначение",
   "source": "@site/docs/components/segmentedcontrol.md",
   "sourceDirName": "components",
   "slug": "/components/segmentedcontrol",
