@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f7a'),
+    component: ComponentCreator('/', '5ac'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '9b9'),
+        component: ComponentCreator('/', '465'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '66d'),
+            component: ComponentCreator('/', '2a9'),
             routes: [
               {
                 path: '/components-react/soon',
@@ -236,14 +236,14 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/overview',
-                component: ComponentCreator('/overview', 'a64'),
+                path: '/tokens/global-color-tokens',
+                component: ComponentCreator('/tokens/global-color-tokens', 'e22'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/tokens/global-color-tokens',
-                component: ComponentCreator('/tokens/global-color-tokens', 'e22'),
+                path: '/',
+                component: ComponentCreator('/', '0a9'),
                 exact: true,
                 sidebar: "docs"
               }

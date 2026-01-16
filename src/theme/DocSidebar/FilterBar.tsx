@@ -17,7 +17,6 @@ export default function FilterBar(): JSX.Element {
     const next = !priority;
     setPriority(next);
     if (next) {
-      setShowTags(false);
       setGrouping(false);
     }
   };
@@ -29,8 +28,11 @@ export default function FilterBar(): JSX.Element {
           className={`${styles.toggle} ${showTags ? styles.toggleOn : ''}`}
           aria-pressed={showTags}
           onClick={() => {
-            if (priority) setPriority(false);
-            setShowTags(!showTags);
+            const next = !showTags;
+            if (priority && next) {
+              setPriority(false);
+            }
+            setShowTags(next);
           }}>
           <span className={styles.knob} />
         </button>

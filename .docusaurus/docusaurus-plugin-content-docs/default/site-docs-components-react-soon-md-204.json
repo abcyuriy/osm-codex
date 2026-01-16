@@ -16,7 +16,7 @@
   "sidebar": "docs",
   "previous": {
     "title": "Overview",
-    "permalink": "/overview"
+    "permalink": "/"
   },
   "next": {
     "title": "BottomCommandingController",

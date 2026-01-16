@@ -37,7 +37,7 @@ export default function DocSidebarItemLink({
   ...props
 }: Props): ReactNode {
   const {showTags, priority} = useSidebarFilters();
-  const tag = showTags && !priority ? (item?.customProps?.tag ?? null) : null;
+  const tag = showTags ? (item?.customProps?.tag ?? null) : null;
   const priorityBadge = priority ? (item?.customProps?.priority ?? null) : null;
   const {href, label, className, autoAddBaseUrl} = item;
   const isActive = isActiveSidebarItem(item, activePath);

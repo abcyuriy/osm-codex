@@ -4,13 +4,14 @@
   "description": "This site is a developer-facing specification for FluentUI_iOS components.",
   "source": "@site/docs/overview.md",
   "sourceDirName": ".",
-  "slug": "/overview",
-  "permalink": "/overview",
+  "slug": "/",
+  "permalink": "/",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
+    "slug": "/",
     "title": "Overview"
   },
   "sidebar": "docs",

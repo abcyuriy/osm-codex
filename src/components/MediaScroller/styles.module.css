@@ -1,0 +1,105 @@
+.shell {
+  position: relative;
+  overflow: visible;
+  padding: 0 56px;
+}
+
+.wrap {
+  border-radius: 60px;
+  padding: 24px;
+  background: linear-gradient(180deg, #a7d0ff 0%, #1f83ff 100%);
+  min-width: 975px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroller {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: min(376px, 88vw);
+  aspect-ratio: 376 / 785;
+  border-radius: 62px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.media {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 2;
+}
+
+.prevBtn {
+  left: 56px;
+  transform: translate(-100%, -50%);
+}
+
+.nextBtn {
+  right: 56px;
+  transform: translate(100%, -50%);
+}
+
+.navSpacer {
+  width: 44px;
+}
+
+.navIcon {
+  width: 28px;
+  height: 64px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+}
+
+.navBtn:focus-visible .navIcon {
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 2px;
+}
+
+.nextBtn img {
+  width: 16px;
+  height: 16px;
+}
+
+.prevBtn img {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 996px) {
+  .wrap {
+    padding: 16px;
+  }
+}
